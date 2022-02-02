@@ -34,3 +34,10 @@ OBJECTS & ARRAYS
         When making an assignment, primitive types will get passed a value, but non-primitive values get passed by reference (changing a property of an object will change other references in functions, objects, etc. to that property).
 
         To avoid errors, is recommended that instead of modifying a data structure, just create a copy and then pass it so when you update the original data structure, your code won't change in unexpected ways.
+
+    Arrays:
+
+        Array is a subtype of object, that means they are objects and as such it have its own propertys and methods.
+        (Array.length, Array.push(), etc).
+
+        Bracket Notation: The "[]" that you use with an array what it really makes is turn the number of the position in the array(f.e. array[0]) and turning it and making it a property, just that the notation you usually use is different(easier to read). However, besides beaing propertys, you can access the positions of an array using the dot notation, you have to use the bracket notation you usually use.
