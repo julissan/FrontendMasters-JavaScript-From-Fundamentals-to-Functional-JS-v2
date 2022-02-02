@@ -41,3 +41,5 @@ OBJECTS & ARRAYS
         (Array.length, Array.push(), etc).
 
         Bracket Notation: The "[]" that you use with an array what it really makes is turn the number of the position in the array(f.e. array[0]) and turning it and making it a property, just that the notation you usually use is different(easier to read). However, besides beaing propertys, you can access the positions of an array using the dot notation, you have to use the bracket notation you usually use.
+
+        if you assign a value to a position grater than 0 in an empty array, the length will be modified to the position you assigned something to +1 (zero indexed), and the lower postions will be "declared" but empty.
