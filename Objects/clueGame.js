@@ -20,11 +20,11 @@ game.places = ["Kitchen", "Hall", "Ballroom", "Conservatory", "Dining Room", "Ce
 
 game["murderer"] = function decideMurderer(){
 
-    let character = game.characters[getRandomInt(0, this.characters.length)];
-    let weapon = game.weapons[getRandomInt(0, this.weapons.length)];
-    let place = game.places[getRandomInt(0, this.places.length)];
+    let character = game.characters[getRandomInt(0, this.characters.length-1)];
+    let weapon = game.weapons[getRandomInt(0, this.weapons.length-1)];
+    let place = game.places[getRandomInt(0, this.places.length-1)];
 
-    return "Character: "+character+", Weapon: "+weapon+", Place: "+place;
+    return "Murderer: "+character+", Weapon: "+weapon+", Place: "+place;
 };
 
-console.log(game.murderer());
+console.log(game.murderer());             //The murderer, weapon, place set is chosen randomly.
