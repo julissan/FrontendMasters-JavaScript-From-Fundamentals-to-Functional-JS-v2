@@ -1,6 +1,6 @@
 # FrontendMasters-JavaScript-From-Fundamentals-to-Functional-JS-v2
 
-FrontendMasters-JavaScript-From-Fundamentals-to-Functional-JS-v2 Bianca Gandolfo
+FrontendMasters-JavaScript-From-Fundamentals-to-Functional-JS-v2 Bianca Gandolfo (Thumbtack)
 
 Class notes and exercises by Juan David Lis Santofimio, Juanuary - February 2022
 
@@ -49,17 +49,36 @@ OBJECTS & ARRAYS
     Objects:
 
         The Rules for Notation:
-        Dots:                   Brackets:
-        ✔ strings              ✔ strings
-        X numbers               ✔ numbers
-        X quotations            ✔ quotations
-        X weird characters      ✔ weird characters
-        X expressions           ✔ expressions
+            Dots:                   Brackets:
+            ✔ strings              ✔ strings
+            X numbers               ✔ numbers
+            X quotations            ✔ quotations
+            X weird characters      ✔ weird characters
+            X expressions           ✔ expressions
 
         Why dots are used so much compared to brackets then?
             
             Because you'll have to type less and if you have to code all day that can save a lot of time.
             Dot notation is a very powerful tool as long as you're aware of the rules to avoid getting errors.
 
-        
-         
+    ES6 Destructuring
+
+        Destructuring: A simplified way of defining variables and taking them outside outside of an object or an array. It's a tool that can help to have to type less code in some situations.
+
+        Array Destructuring:
+
+            Variable Declarations:
+
+            The Target(left side of the equals) The Source(right side of the equals)
+
+            const [first, second] = [true, false];
+            let [first, second] = [true, false];
+            var [first, second] = [true, false];
+
+            Assignment:
+
+            [first, second] = [true, false];
+
+        This is array destructuring to variable declaration, using arrays this wya we can declare a lot of variables naming them, and then assign values to them in the order they're in the array.
+
+        Object Destructuring: min 10
